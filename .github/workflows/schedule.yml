@@ -16,6 +16,6 @@ jobs:
       - name: Update gist
         run: node ./index.js
         env:
-          GH_TOKEN: ${{ secrets.GIST_TOKEN }}
-          GIST_ID: 898cd496a06099ac125d6c1bcdee7fc0
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: 139ad0b8d4ef26a509df332e5f079c3c
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
